@@ -106,7 +106,7 @@ public class TestBase {
         try {
             //close the process of browser
 //            driver.close();
-            driver.quit();
+//            driver.quit();
         } catch (Exception e) {
             e.printStackTrace();
         }
