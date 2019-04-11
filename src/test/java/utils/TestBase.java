@@ -105,7 +105,7 @@ public class TestBase {
     public void teardown () {
         try {
             //close the process of browser
-            driver.close();
+//            driver.close();
             driver.quit();
         } catch (Exception e) {
             e.printStackTrace();
