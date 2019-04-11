@@ -12,14 +12,14 @@ public class TC02 extends TestBase {
     @Test
     public void verify_TC02() throws Exception {
 
-        basicPage = new BasicPage();
-
-
-        Log.info("Step 1: Enter keywords into search field");
-
-        basicPage.inputOfSearch.sendKeys("Automated Testing222222");
-
-        Log.info("Step 2: Click on Submit button");
-        basicPage.btnOfSubmit.click();
+//        basicPage = new BasicPage();
+//
+//
+//        Log.info("Step 1: Enter keywords into search field");
+//
+//        basicPage.inputOfSearch.sendKeys("Automated Testing222222");
+//
+//        Log.info("Step 2: Click on Submit button");
+//        basicPage.btnOfSubmit.click();
     }
 }

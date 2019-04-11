@@ -3,8 +3,11 @@
     <suite name="All Test Suite">
 
     <test verbose="2" preserve-order="true" name="C:/Users/herby/IdeaProjects/TestDemo/pom.xml">
-            <packages>
-                <package name="tests" />
-            </packages>
+            <!--<packages>-->
+                <!--<package name="tests" />-->
+            <!--</packages>-->
+        <classes>
+            <class name="tests.TC01" />
+        </classes>
         </test>
     </suite>

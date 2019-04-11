@@ -59,7 +59,7 @@
 
     </dependencies>
 
-    <!-- add testNG.xml file -->
+   <!--在Jenkins上运行时，需要指定要执行的case-->
     <build>
         <defaultGoal>install</defaultGoal>
         <plugins>
