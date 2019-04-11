@@ -91,7 +91,7 @@ public class TestBase {
     public void setupChrome(){
         chromeOptions.setExperimentalOption("useAutomationExtension",false);
 //        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"./lib/chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver_73.exe");
         driver = new ChromeDriver(chromeOptions);
     }
 
@@ -106,8 +106,8 @@ public class TestBase {
     public void teardown () {
         try {
             //close the process of browser
-//            driver.close();
-//            driver.quit();
+            driver.close();
+            driver.quit();
         } catch (Exception e) {
             e.printStackTrace();
         }
