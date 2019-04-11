@@ -82,8 +82,8 @@ public class ReportFactory extends TestBase {
             reporter.endTest(test);
             reporter.flush();
             reporter.close();
-            File currentReport = new File("./test-output/ExtentReport" + ".html");
-            FileUtils.copyFile(currentReport, new File("./test-output/ExtentReport.html"));
+//            File currentReport = new File("/test-output/ExtentReport" + ".html");
+//            FileUtils.copyFile(currentReport, new File("/test-output/ExtentReport.html"));
         }
     }
 
