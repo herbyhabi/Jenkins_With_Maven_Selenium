@@ -83,7 +83,7 @@ public class TestBase {
 
        //Create a wait and maximize window, suggest all test classes to use this
         wait = new WebDriverWait(driver,60);
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
 
     }
 
