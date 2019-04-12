@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f3fe839b-c06e-4858-8813-9a78cb5cf109" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log4j/log4j-test-automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log4j/log4j-test-automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TC02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TC01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TC01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ReportFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ReportFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TC02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TC02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport_20190330232041.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport_20190330232624.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,26 +21,33 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1098">
+            <state relative-caret-position="394">
               <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExtentReport_20190411235528.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-output/ExtentReport_20190411235528.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="182">
+              <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,7 +58,7 @@
       <file leaf-file-name="TC02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/TC02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="288">
               <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,8 +82,8 @@
       <file leaf-file-name="TC01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/TC01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="216">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,9 +148,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TC02.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/TestBase.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/testng.xml" />
       </list>
@@ -161,10 +164,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="937" />
-    <option name="y" value="105" />
-    <option name="width" value="1082" />
-    <option name="height" value="1038" />
+    <option name="x" value="934" />
+    <option name="y" value="102" />
+    <option name="width" value="1085" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -180,6 +182,16 @@
             <path>
               <item name="Jenkins_With_Maven_Selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jenkins_With_Maven_Selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_With_Maven_Selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_With_Maven_Selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_With_Maven_Selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_With_Maven_Selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="Log4j" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jenkins_With_Maven_Selenium" type="b2602c69:ProjectViewProjectNode" />
@@ -224,6 +236,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -532,25 +545,31 @@
       <option name="project" value="LOCAL" />
       <updated>1554996169380</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1">
+      <created>1554998178685</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554998178685</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1555082533309</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555082533309</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1">
+      <created>1555083057259</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1555083057259</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TC01_verify_TC01 - 2019.03.30 at 23h 20m 50s.xml">
-      <configuration name="TC01.verify_TC01" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TC01_verify_TC01 - 2019.03.30 at 23h 26m 33s.xml">
-      <configuration name="TC01.verify_TC01" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TC01_verify_TC01 - 2019.04.11 at 21h 26m 23s.xml">
-      <configuration name="TC01.verify_TC01" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TC01 - 2019.04.11 at 21h 29m 16s.xml">
-      <configuration name="TC01" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TC01 - 2019.04.11 at 21h 29m 59s.xml">
-      <configuration name="TC01" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TC01_verify_TC01 - 2019.04.11 at 21h 30m 51s.xml">
       <configuration name="TC01.verify_TC01" configurationId="TestNG" />
     </history-entry>
@@ -566,6 +585,21 @@
     <history-entry file="TC01_verify_TC01 - 2019.04.11 at 23h 22m 06s.xml">
       <configuration name="TC01.verify_TC01" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TC01_verify_TC01 - 2019.04.11 at 23h 52m 52s.xml">
+      <configuration name="TC01.verify_TC01" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__E_disk_My_repositories_TestDemo_Jenkins_With_Maven_Selenium_testng_xml - 2019.04.11 at 23h 53m 39s.xml">
+      <configuration name="C:/E disk/My repositories/TestDemo/Jenkins_With_Maven_Selenium/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC01_verify_TC01 - 2019.04.11 at 23h 54m 36s.xml">
+      <configuration name="TC01.verify_TC01" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__E_disk_My_repositories_TestDemo_Jenkins_With_Maven_Selenium_testng_xml - 2019.04.11 at 23h 54m 54s.xml">
+      <configuration name="C:/E disk/My repositories/TestDemo/Jenkins_With_Maven_Selenium/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__E_disk_My_repositories_TestDemo_Jenkins_With_Maven_Selenium_testng_xml - 2019.04.11 at 23h 55m 36s.xml">
+      <configuration name="C:/E disk/My repositories/TestDemo/Jenkins_With_Maven_Selenium/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
@@ -573,26 +607,26 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3291536" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3298969" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.4075235" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.4075235" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291536" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2629279" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27021122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.12695925" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3291536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -604,12 +638,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.4075235" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25928622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -619,7 +653,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3291536" />
@@ -643,16 +677,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TC01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -798,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,15 +913,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
+        <state relative-caret-position="394">
           <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/test-output/ExtentReport_20190411235528.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TC01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -909,7 +942,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/TC02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="288">
           <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -917,20 +950,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TC01.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="182">
+          <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
