@@ -23,7 +23,7 @@ public class TC01 extends TestBase {
 
         Log.info("Step 1: Enter keywords into search field");
         customizeFunctions.input(basicPage.inputOfSearch,"Automation test","Enter a keywords");
-        customizeAssertion.assertTrue(false,"verify it is true");
+//        customizeAssertion.assertTrue(false,"verify it is true");
 
         Log.info("Step 2: Click on Submit button");
         customizeFunctions.click(basicPage.btnOfSubmit,"Click on submit button");
