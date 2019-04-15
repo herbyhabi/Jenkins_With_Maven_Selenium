@@ -90,9 +90,14 @@ public class TestBase {
 
     public void setupChrome(){
         chromeOptions.setExperimentalOption("useAutomationExtension",false);
-//        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"./lib/chromedriver.exe");
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver_73.exe");
+        System.out.println("1111111111111111111  "+System.getProperty("user.dir")+"./lib/chromedriver_73.exe");
+
+
+
+        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"./lib/chromedriver.exe");
+
+//        System.setProperty("webdriver.chrome.driver","C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver_73.exe");
         driver = new ChromeDriver(chromeOptions);
     }
 
