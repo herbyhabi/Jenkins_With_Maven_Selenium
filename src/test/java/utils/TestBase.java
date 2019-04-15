@@ -93,7 +93,7 @@ public class TestBase {
 
         System.out.println("1111111111111111111  "+System.getProperty("user.dir")+"\\lib\\chromedriver_73.exe");
 
-
+        chromeOptions.setBinary("C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\lib\\chromedriver_73.exe");
 
