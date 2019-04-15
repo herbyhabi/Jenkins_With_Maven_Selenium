@@ -94,7 +94,7 @@ public class TestBase {
 //        chromeOptions.setBinary("C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");//指定本地的chrome浏览器，否则jenkins会报错：cannot find chrome binary
 //        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\lib\\chromedriver.exe");
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver24666.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver246666.exe");
 
         driver = new ChromeDriver(chromeOptions);
     }
