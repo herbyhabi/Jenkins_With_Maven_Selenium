@@ -68,6 +68,8 @@ public class CustomizeAssertion extends TestBase {
 
 
     public String errorScreenshot(TakesScreenshot name){
+        System.out.println("Start to cut the screenshot!!!!!!!!!!!!!");
+        File screen = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         File file = name.getScreenshotAs(OutputType.FILE);
         Date date = new Date();
         DateFormat format = new SimpleDateFormat("yyyyMMddHHmmss");
@@ -78,7 +80,7 @@ public class CustomizeAssertion extends TestBase {
 
         try {
             System.out.println("Save error screenshot path is: " +errorImagePath);
-            FileUtils.copyFile(file, new File(absolutePath));
+            FileUtils.copyFile(screen, new File(absolutePath));
         }catch (IOException e){
             System.out.println("Cannot save screenshot");
             return "";
