@@ -72,14 +72,18 @@ public class CustomizeAssertion extends TestBase {
         Date date = new Date();
         DateFormat format = new SimpleDateFormat("yyyyMMddHHmmss");
         String timestamp = format.format(date);
+
+        File path = new File(errorImagePath);
+        String absolutePath = path.getAbsolutePath() +timestamp +".png";
+
         try {
             System.out.println("Save error screenshot path is: " +errorImagePath);
-            FileUtils.copyFile(file, new File(errorImagePath+"\\"+".png"));
+            FileUtils.copyFile(file, new File(absolutePath));
         }catch (IOException e){
             System.out.println("Cannot save screenshot");
             return "";
         }finally {
-            return returnPath+"\\"+timestamp +".png";
+            return absolutePath;
         }
 
     }
