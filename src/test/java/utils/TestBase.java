@@ -91,6 +91,7 @@ public class TestBase {
     public void setupChrome(){
         chromeOptions.setExperimentalOption("useAutomationExtension",false);
 
+        chromeOptions.addArguments("--disable-features=VizDisplayCompositor");
 //        chromeOptions.setBinary("C:\\Users\\herby\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");//指定本地的chrome浏览器，否则jenkins会报错：cannot find chrome binary
 //        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\lib\\chromedriver.exe");
 
