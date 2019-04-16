@@ -71,7 +71,7 @@ public class Functions extends TestBase {
 
         if(fileList.length>0){
             for(File f : fileList){
-                fileName = (f.getName().split("/"))[0];
+                fileName = (f.getName().split("/."))[0];
 
                 try{
                     fileDate = dateFormat.parse(fileName);
@@ -144,4 +144,28 @@ public class Functions extends TestBase {
     public static int calculateNumberDay(Date d1, Date d2){
         return abs((int)(d2.getTime()-d1.getTime()/(1000*60*60*24)));
     }
+
+
+    /**
+     * clear the old extent report, always store 4 reports in the folder.
+     */
+    public static void clearOldExtentReport(){
+        File file = new File(".\\test-output");
+        File[] files = file.listFiles();
+
+        if(files.length>3){
+
+            try{
+
+            for (int i = 1; i < files.length-3; i++) {
+                files[i].delete();
+                i++;
+            }
+
+            }catch (Exception e){
+                System.out.println("Failed to delete extentreports");
+            }
+        }
+    }
+
 }

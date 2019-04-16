@@ -42,7 +42,8 @@ public class TestBase {
 
     @BeforeSuite(alwaysRun = true)
     public void clearFolderFile(){
-//        Functions.deleteOldScreenshot();
+        Functions.deleteOldScreenshot();
+        Functions.clearOldExtentReport();
     }
 
     /**
