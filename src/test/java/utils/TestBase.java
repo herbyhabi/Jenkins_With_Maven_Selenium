@@ -83,7 +83,7 @@ public class TestBase {
 
        //Create a wait and maximize window, suggest all test classes to use this
         wait = new WebDriverWait(driver,60);
-        driver.manage().window().maximize(); //在jenkins运行中，添加此代码会导致driver起不来
+        driver.manage().window().maximize();
 
     }
 
@@ -111,8 +111,8 @@ public class TestBase {
     public void teardown () {
         try {
             //close the process of browser
-//            driver.close();
-//            driver.quit();
+            driver.close();
+            driver.quit();
         } catch (Exception e) {
             e.printStackTrace();
         }
